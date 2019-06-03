@@ -5,9 +5,9 @@
       <router-link to="/about">About1</router-link>
     </div>
     <div>
-      <p><a href="/page1.html">跳转新的页面page1</a></p>
-			<p><a href="/page2.html">跳转新的页面page2</a></p>
-			<p><a href="/page1.html#/about">跳转page1的子路由页面</a></p>
+      <p><a href="/page1.html" target="_blank">跳转新的页面page1</a></p>
+			<p><a href="/page2.html" target="_blank">跳转新的页面page2</a></p>
+			<p><a href="/page1.html#/about" target="_blank">跳转page1的子路由页面</a></p>
     </div>
     <router-view/>
   </div>
